@@ -64,4 +64,3 @@ const styles = StyleSheet.create({
 export default Footer;
 
 // TODO: LINKS AT THE BOTTOM + DEEP LINKS WE WILL SEE, SOCIAL MEDIA ICONS
-// TODO: Shepherd Logo to .jpeg with background transform
