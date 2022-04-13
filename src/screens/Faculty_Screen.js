@@ -51,7 +51,15 @@ export default function Main_Screen() {
                   </Text>
                 </View>
                 <View style={styles.table_cell_r}>
-                  <Text style={styles.p_table}>kadams@shepherd.edu</Text>
+                  <Text style={styles.p_table}>
+                    <Text
+                      style={styles.link}
+                      onPress={() =>
+                        Linking.openURL('mailto:kadams@shepherd.edu')
+                      }>
+                      kadams@shepherd.edu
+                    </Text>
+                  </Text>
                 </View>
               </View>
               <View style={styles.table_row}>
@@ -61,7 +69,13 @@ export default function Main_Screen() {
                   </Text>
                 </View>
                 <View style={styles.table_cell_r}>
-                  <Text style={styles.p_table}>304-875-5772</Text>
+                  <Text style={styles.p_table}>
+                    <Text
+                      style={styles.link}
+                      onPress={() => Linking.openURL('tel:3048755772')}>
+                      304-875-5772
+                    </Text>
+                  </Text>
                 </View>
               </View>
               <View style={styles.table_row}>
