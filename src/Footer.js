@@ -6,7 +6,7 @@ const Footer = props => {
     <View style={styles.view}>
       <Image
         style={styles.image}
-        source={require('../src/images/logo.png')}
+        source={require('../src/images/logo_wb.jpg')}
         resizeMode="center"
       />
       <Text style={styles.bold_text}>

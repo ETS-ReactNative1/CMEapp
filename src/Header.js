@@ -7,7 +7,7 @@ const Header = props => {
     <View style={styles.view}>
       <Image
         style={styles.image}
-        source={require('../src/images/shepherd_logo.png')}
+        source={require('../src/images/logo150_wb.jpg')}
       />
     </View>
   );
@@ -34,5 +34,3 @@ const styles = StyleSheet.create({
 });
 
 export default Header;
-
-// TODO: Shepherd Logo to .jpeg with background transform
