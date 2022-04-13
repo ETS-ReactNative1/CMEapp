@@ -1,19 +1,12 @@
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Image,
-  Text,
-  Pressable,
-  backgroundColor,
-} from 'react-native';
+import {StyleSheet, View, Image, Text, Linking} from 'react-native';
 
 const Footer = props => {
   return (
     <View style={styles.view}>
       <Image
         style={styles.image}
-        source={require('../images/logo.png')}
+        source={require('../src/images/logo.png')}
         resizeMode="center"
       />
       <Text style={styles.bold_text}>
@@ -41,7 +34,7 @@ const Footer = props => {
 const styles = StyleSheet.create({
   view: {
     width: '100%',
-    height: 300,
+    height: 220,
     backgroundColor: '#036',
     justifyContent: 'flex-start',
     alignItems: 'flex-start',
@@ -70,4 +63,5 @@ const styles = StyleSheet.create({
 
 export default Footer;
 
-// TODO: LINKS AT THE BOTTOM, SOCIAL MEDIA ICONS
+// TODO: LINKS AT THE BOTTOM + DEEP LINKS WE WILL SEE, SOCIAL MEDIA ICONS
+// TODO: Shepherd Logo to .jpeg with background transform

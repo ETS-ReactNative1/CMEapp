@@ -7,9 +7,10 @@ import {
   View,
   ScrollView,
   Image,
+  Linking,
 } from 'react-native';
-import Header from './Header';
-import Footer from './Footer';
+import Header from '../Header';
+import Footer from '../Footer';
 
 export default function Main_Screen() {
   return (
@@ -21,7 +22,6 @@ export default function Main_Screen() {
       <ScrollView>
         <View style={styles.body}>
           <View style={styles.cme_head}>
-            {/* ADD SPECIAL FONT!!! */}
             <Text style={styles.h1}>
               Computer Science, Mathematics, and Engineering
             </Text>
@@ -33,13 +33,12 @@ export default function Main_Screen() {
               resizeMethod="auto"
             />
             <Text style={styles.p}>
-              Welcome to the Department of Computer Science, Mathematics, and
-              Engineering! We offer a variety of degree options including B.S.
-              in Computer Engineering, B.S. in Mathematics, B.S. in Computer and
-              Information Sciences, and B.S. in Computer Information Technology.
-              We are confident that our programs and the flexibility that we
-              offer in many different technical areas will spark high demand
-              from employers all across the United States.
+              The Department of Computer Science, Mathematics, and Engineering
+              (CME) is one of the academic departments within the College of
+              Science, Technology, Engineering, and Mathematics (CSTEM). CME
+              offers a variety of degrees in computers, data science,
+              mathematics, and engineering. Our programs offer depth and
+              flexibility to help you launch your technology career.
             </Text>
 
             <Text style={styles.h3}>Mission Statement</Text>
@@ -76,8 +75,16 @@ export default function Main_Screen() {
             <Text style={styles.p}>
               Annually, the CME department and Shepherd University hosts Shep
               Robofest. For more information or to register for the Fest, go to
-              our website located here!
-              {/* DOPLN LINK NA HERE! <a href="http://www.shepherdu.com/cmeweb/srf/index.php">here</a> */}
+              our website located{' '}
+              <Text
+                style={styles.link}
+                onPress={() =>
+                  Linking.openURL(
+                    'http://www.shepherdu.com/cmeweb/srf/index.php',
+                  )
+                }>
+                here!
+              </Text>
             </Text>
             <Text style={styles.h3}>NASA-SNSM Research</Text>
             <Text style={styles.p}>
@@ -91,16 +98,23 @@ export default function Main_Screen() {
             </Text>
             <Text style={styles.h3}>Faculty Openings!</Text>
             <Text style={styles.p}>
-              2022 — The Department of Computer Science, Mathematics and
-              Engineering at Shepherd University is seeking math and computer
-              faculty. Search jobs.
-              {/* DOPLN LINK NA HERE! <a href="https://jobs-shepherd.peopleadmin.com/postings/search?utf8=%E2%9C%93&amp;query=&amp;query_v0_posted_at_date=&amp;query_position_type_id%5B%5D=14&amp;435=&amp;query_organizational_tier_3_id%5B%5D=502&amp;commit=Search">jobs</a> */}
+              <Text style={styles.ital}>2022</Text> — The Department of Computer
+              Science, Mathematics and Engineering at Shepherd University is
+              seeking math and computer faculty. Search{' '}
+              <Text
+                style={styles.link}
+                onPress={() =>
+                  Linking.openURL(
+                    'https://jobs-shepherd.peopleadmin.com/postings/search?utf8=%E2%9C%93&amp;query=&amp;query_v0_posted_at_date=&amp;query_position_type_id%5B%5D=14&amp;435=&amp;query_organizational_tier_3_id%5B%5D=502&amp;commit=Search',
+                  )
+                }>
+                jobs.
+              </Text>
             </Text>
           </View>
         </View>
         <Footer />
       </ScrollView>
-      {/* SCROLL VIEW OBMEDZ DOLE A HORE */}
     </View>
   );
 }
@@ -123,18 +137,11 @@ const styles = StyleSheet.create({
   },
   h1: {
     fontFamily: 'Georgia',
-    // font-family: bodonisvntytwoitcstd-book,serif,
     color: '#036',
-    // border-bottom: 1px solid #bfccd9;
-    // padding-bottom: 20px;
-    // margin-bottom: 20px;
-    // text-transform: none;
-    // font-size: 48px;
-    // letter-spacing: .012em;
-    // line-height: 120%;
     textAlign: 'center',
-    fontSize: 20,
-    lineHeight: 30,
+    fontSize: 44,
+    lineHeight: 55,
+    fontWeight: '100',
     marginTop: 10,
     marginBottom: 10,
     borderBottomColor: '#bfccd9',
@@ -143,7 +150,7 @@ const styles = StyleSheet.create({
   h3: {
     textAlign: 'left',
     fontSize: 20,
-    fontFamily: 'Roboto',
+    fontFamily: 'Roboto-Regular',
     fontWeight: '700',
     color: '#40668c',
     marginBottom: 10,
@@ -162,11 +169,18 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     paddingLeft: 10,
     paddingRight: 10,
+    paddingBottom: 60,
   },
   image: {
     marginTop: 20,
     marginBottom: 20,
     width: '100%',
     height: 200,
+  },
+  link: {
+    color: 'orange',
+  },
+  ital: {
+    fontStyle: 'italic',
   },
 });
