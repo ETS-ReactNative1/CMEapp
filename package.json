@@ -29,7 +29,8 @@
     "react-native-safe-area-context": "^4.2.1",
     "react-native-screens": "^3.13.1",
     "react-native-tab-view": "^3.1.1",
-    "react-native-unordered-list": "^1.0.4"
+    "react-native-unordered-list": "^1.0.4",
+    "social-media-icons-react": "^1.1.10"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
