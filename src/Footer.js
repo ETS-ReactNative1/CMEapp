@@ -13,19 +13,30 @@ const Footer = props => {
         VISIT
         <Text style={styles.inner_text}>
           {' '}
-          301 N KING ST, SHEPHERDSTOWN, WV 25443
+          <Text
+            style={styles.inner_text}
+            onPress={() => Linking.openURL('http://goo.gl/maps/FdIVn')}>
+            301 N KING ST, SHEPHERDSTOWN, WV 25443
+          </Text>
         </Text>
       </Text>
       <Text style={styles.bold_text}>
         MAIL
-        <Text style={styles.inner_text}>
+        <Text
+          style={styles.inner_text}
+          onPress={() => Linking.openURL('https://goo.gl/maps/MPk1d')}>
           {' '}
           P.O. BOX 5000, SHEPHERDSTOWN, WV 25443
         </Text>
       </Text>
       <Text style={styles.bold_text}>
         CALL
-        <Text style={styles.inner_text}> 304.876.5000</Text>
+        <Text
+          style={styles.inner_text}
+          onPress={() => Linking.openURL('tel:3048765000')}>
+          {' '}
+          304.876.5000
+        </Text>
       </Text>
     </View>
   );
