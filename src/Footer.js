@@ -74,4 +74,4 @@ const styles = StyleSheet.create({
 
 export default Footer;
 
-// TODO: LINKS AT THE BOTTOM + DEEP LINKS WE WILL SEE, SOCIAL MEDIA ICONS
+// TODO: LINKS SOCIAL MEDIA ICONS

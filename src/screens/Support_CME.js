@@ -59,8 +59,21 @@ export default function Main_Screen() {
             <Text style={styles.p}>
               <Text style={styles.ital}>
                 For assistance, contact Meg Patterson, Shepherd University
-                Foundation director of donor relations, at 304-876-5021 or
-                mpeterso@shepherd.edu.
+                Foundation director of donor relations, at{' '}
+                <Text
+                  style={styles.link}
+                  onPress={() => Linking.openURL('tel:3048765021')}>
+                  304-876-5021
+                </Text>{' '}
+                or{' '}
+                <Text
+                  style={styles.link}
+                  onPress={() =>
+                    Linking.openURL('mailto:mpeterso@shepherd.edu')
+                  }>
+                  mpeterso@shepherd.edu
+                </Text>
+                .
               </Text>
             </Text>
             <Text style={styles.h3}>
