@@ -174,5 +174,3 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
   },
 });
-
-// TODO: Link na EMAIL!!!

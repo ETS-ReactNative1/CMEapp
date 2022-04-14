@@ -126,4 +126,3 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
   },
 });
-//POTENTIAL TODO: Figure out URL from Drawer Navigation
