@@ -121,7 +121,15 @@ export default function Main_Screen() {
                   </Text>
                 </View>
                 <View style={styles.table_cell_r}>
-                  <Text style={styles.p_table}>jbutcher@shepherd.edu</Text>
+                  <Text style={styles.p_table}>
+                    <Text
+                      style={styles.link}
+                      onPress={() =>
+                        Linking.openURL('mailto:jbutcher@shepherd.edu')
+                      }>
+                      jbutcher@shepherd.edu
+                    </Text>
+                  </Text>
                 </View>
               </View>
               <View style={styles.table_row}>
@@ -158,7 +166,15 @@ export default function Main_Screen() {
                   </Text>
                 </View>
                 <View style={styles.table_cell_r}>
-                  <Text style={styles.p_table}>mghahrem@shepherd.edu</Text>
+                  <Text style={styles.p_table}>
+                    <Text
+                      style={styles.link}
+                      onPress={() =>
+                        Linking.openURL('mailto:mghahrem@shepherd.edu')
+                      }>
+                      mghahrem@shepherd.edu
+                    </Text>
+                  </Text>
                 </View>
               </View>
               <View style={styles.table_row}>
@@ -168,7 +184,13 @@ export default function Main_Screen() {
                   </Text>
                 </View>
                 <View style={styles.table_cell_r}>
-                  <Text style={styles.p_table}>304-876-5783</Text>
+                  <Text style={styles.p_table}>
+                    <Text
+                      style={styles.link}
+                      onPress={() => Linking.openURL('tel:3048765783')}>
+                      304-876-5783
+                    </Text>
+                  </Text>
                 </View>
               </View>
               <View style={styles.table_row}>
@@ -214,7 +236,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>oguzide@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:oguzide@shepherd.edu')
+                    }>
+                    oguzide@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -224,7 +254,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5017</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:3048765017')}>
+                    304-876-5017
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -271,7 +307,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>njahanba@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:njahanba@shepherd.edu')
+                    }>
+                    njahanba@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -316,7 +360,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>wliao@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:wliao@shepherd.edu')
+                    }>
+                    wliao@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -326,7 +378,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5031</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5031')}>
+                    304-876-5031
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -365,7 +423,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>horvat@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:horvat@shepherd.edu')
+                    }>
+                    horvat@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -375,7 +441,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5336</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5336')}>
+                    304-876-5336
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -418,7 +490,16 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>jmill02@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  {' '}
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:jmill02@shepherd.edu')
+                    }>
+                    jmill02@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -428,7 +509,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5070</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5070')}>
+                    304-876-5070
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -484,7 +571,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>dmills@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:dmills@shepherd.edu')
+                    }>
+                    dmills@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -494,7 +589,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5407</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5407')}>
+                    304-876-5407
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -539,7 +640,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>rmirdama@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:rmirdama@shepherd.edu')
+                    }>
+                    rmirdama@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -549,7 +658,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5368</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5368')}>
+                    304-876-5368
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -593,7 +708,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>rmonahan@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:rmonahan@shepherd.edu')
+                    }>
+                    rmonahan@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -603,7 +726,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5359</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5359')}>
+                    304-876-5359
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -643,7 +772,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>fnelles@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:fnelles@shepherd.edu')
+                    }>
+                    fnelles@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -653,7 +790,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5333</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5333')}>
+                    304-876-5333
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -694,7 +837,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>jshawsr@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:jshawsr@shepherd.edu')
+                    }>
+                    jshawsr@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
 
@@ -738,7 +889,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>rsnook@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:rsnook@shepherd.edu')
+                    }>
+                    rsnook@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
 
@@ -750,8 +909,14 @@ export default function Main_Screen() {
               </View>
               <View style={styles.table_cell_r}>
                 <Text style={styles.p_table}>
-                  Write c/o CME Department or visit
-                  www.linkedin.com/in/rogersnook
+                  Write c/o CME Department or visit{' '}
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('https://www.linkedin.com/in/rogersnook')
+                    }>
+                    www.linkedin.com/in/rogersnook
+                  </Text>
                 </Text>
               </View>
             </View>
@@ -833,7 +998,15 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>qwang@shepherd.edu</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() =>
+                      Linking.openURL('mailto:qwang@shepherd.edu')
+                    }>
+                    qwang@shepherd.edu
+                  </Text>
+                </Text>
               </View>
             </View>
             <View style={styles.table_row}>
@@ -843,7 +1016,13 @@ export default function Main_Screen() {
                 </Text>
               </View>
               <View style={styles.table_cell_r}>
-                <Text style={styles.p_table}>304-876-5643</Text>
+                <Text style={styles.p_table}>
+                  <Text
+                    style={styles.link}
+                    onPress={() => Linking.openURL('tel:304-876-5643')}>
+                    304-876-5643
+                  </Text>
+                </Text>
               </View>
             </View>
 
